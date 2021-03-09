@@ -3,21 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Facilities </title>
+    <title>Check Perfomance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="UNES Master List" name="description" />
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-    <!-- DataTables -->
-    <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
-
-    <!-- Responsive datatable examples -->
-    <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet"
-        type="text/css" />
 
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
@@ -74,12 +65,11 @@
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link arrow-none" href="form-check-perfomance.html" id="topnav-dashboard">Check Perfomance
+                                            <a class="nav-link arrow-none" href="form-check-sri.html" id="topnav-dashboard">Check Perfomance
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link arrow-none" href="form-publish-facility.html" id="topnav-dashboard">Add
-                                                Facility
+                                            <a class="nav-link arrow-none" href="form-publish-facility.html" id="topnav-dashboard">Add Facility
                                             </a>
                                         </li>
                                     </ul>
@@ -113,7 +103,6 @@
                     </div>
                 </div>
             </header>
-
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
@@ -122,81 +111,32 @@
                 <div class="page-content">
 
                     <!-- start page title -->
-                    <div class="row">
-                        <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-6 col-xl-5">
                             <div class="page-title-box d-flex align-items-center justify-content-between">
-                                <h4 class="page-title mb-0 font-size-18">Facility List</h4>
-                            </div>
-
-                            <div class="page-title-right">
-                                <div class="breadcrumb m-0">
-                                    <a href="form-publish-facility.html" class="btn btn-primary btn-sm">Add Facility</a>
-                                </div>
-                                
+                                <h4 class="page-title mb-0 font-size-18">Check Perfomance</h4>
                             </div>
                         </div>
                     </div>
                     <!-- end page title -->
 
-                    <div class="row">
-                        <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-lg-6 col-xl-8">
                             <div class="card">
                                 <div class="card-body">
-                                    <table id="datatable" class="table table-bordered dt-responsive nowrap"
-                                        style="border-collapse: collapse; border-spacing: 0; width: 100%;">
-                                        <thead>
-                                            <tr>
-                                                <th>Specialization RefNumber</th>
-                                                <th>Specialization</th>
-                                                <th>Status</th>
-                                                <th>Location</th>
-                                                <th>Number of Facilities</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-
-                                        <tbody>
-                                            <tr>
-                                                <td>MOH/006/2021</td>
-                                                <td>Institute</td>
-                                                <td>Operational</td>
-                                                <td>Nairobi</td>
-                                                <td>5</td>
-                                                <td>
-                                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                    <a href="profile-report.html" class="btn btn-primary btn-sm">View Facilities</a>
-                                                </td>                                            
-                                            </tr>
-
-                                            <tr>
-                                                <td>MOH/014/2021</td>
-                                                <td>Nursing and Maternity Home</td>
-                                                <td>Operational</td>
-                                                <td>Kisumu</td>
-                                                <td>2</td>
-                                                <td>
-                                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                    <a href="profile-report.html" class="btn btn-primary btn-sm">View Facilities</a>
-                                                </td>                                            
-                                            </tr>
-
-                                            <tr>
-                                                <td>MOH/030/2021</td>
-                                                <td>Medical Clinic</td>
-                                                <td>Operational</td>
-                                                <td>Mandera</td>
-                                                <td>4</td>
-                                                <td>
-                                                    <a href="#" class="btn btn-primary btn-sm">Edit</a>
-                                                    <a href="profile-report.html" class="btn btn-primary btn-sm">View Facilities</a>
-                                                </td>                                               </tr>
-                                        </tbody>
-                                    </table>
-
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <input class="form-control" type="text" placeholder="Enter Facility ID" id="example-search-input">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="pages-facility-profile.html" class="btn btn-dark btn-rounded waves-effect waves-light">Check Perfomance</a>
+                                
                                 </div>
                             </div>
+
                         </div>
-                        <!-- end col -->
                     </div>
                     <!-- end row -->
 
@@ -253,8 +193,7 @@
                     <img src="assets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="">
                 </div>
                 <div class="custom-control custom-switch mb-3">
-                    <input type="checkbox" class="custom-control-input theme-choice" id="dark-mode-switch"
-                        data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css" />
+                    <input type="checkbox" class="custom-control-input theme-choice" id="dark-mode-switch" data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css" />
                     <label class="custom-control-label" for="dark-mode-switch">Dark Mode</label>
                 </div>
 
@@ -262,8 +201,7 @@
                     <img src="assets/images/layouts/layout-3.jpg" class="img-fluid img-thumbnail" alt="">
                 </div>
                 <div class="custom-control custom-switch mb-5">
-                    <input type="checkbox" class="custom-control-input theme-choice" id="rtl-mode-switch"
-                        data-appStyle="assets/css/app-rtl.min.css" />
+                    <input type="checkbox" class="custom-control-input theme-choice" id="rtl-mode-switch" data-appStyle="assets/css/app-rtl.min.css" />
                     <label class="custom-control-label" for="rtl-mode-switch">RTL Mode</label>
                 </div>
 
@@ -283,25 +221,6 @@
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
-
-    <!-- Required datatable js -->
-    <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-    <!-- Buttons examples -->
-    <script src="assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-    <script src="assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-    <script src="assets/libs/jszip/jszip.min.js"></script>
-    <script src="assets/libs/pdfmake/build/pdfmake.min.js"></script>
-    <script src="assets/libs/pdfmake/build/vfs_fonts.js"></script>
-    <script src="assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
-    <script src="assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
-    <script src="assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
-    <!-- Responsive examples -->
-    <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-    <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-
-    <!-- Datatable init js -->
-    <script src="assets/js/pages/datatables.init.js"></script>
 
     <!-- App js -->
     <script src="assets/js/app.js"></script>
